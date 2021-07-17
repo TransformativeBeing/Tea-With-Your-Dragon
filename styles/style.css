@@ -1,0 +1,17 @@
+body {
+    background: radial-gradient( 900px at 50% 50%, rgb(186, 234, 248) 25%, rgb(119, 172, 241) 40%, rgb(52, 191, 247) 50%, rgb(31, 144, 250) 60%);
+}
+
+h1 {
+    font-family: fantasy;
+}
+
+a {
+    max-width: 288;
+}
+
+.etsy {
+    color: white;
+    background-color: #f1641e;
+    border: #f1641e;
+}
