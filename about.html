@@ -9,7 +9,7 @@
     <title>
         About - Downtown Stanwood Store Front Information - TeaWithYurDragon.com
     </title>
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="/src/style.css" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </head>
@@ -43,5 +43,18 @@
       </div>
     </nav>
     <h1 class="text-center mt-5">Tea With Your Dragon</h1>
+    <div class="text-center mt-5">
+      <p class="lh-1 fw-bold mb-2">Hours:</p>
+      <p class="lh-1 mb-1">Wed - Sun 12pm to 5pm</p>
+      <p class="lh-1">Please call to confirm store hours</p>
+      <p class="fs-3 my-4">360-926-8259</p>
+      <p class="lh-1 fs-5 mb-1">8171 271st.St.NW</p>
+      <p class="lh-1 fs-5 mb-1">Stanwood, WA</p>
+    </div>
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&libraries=&v=weekly"
+      async
+    ></script>
   </body>
 </html>

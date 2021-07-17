@@ -1,5 +1,6 @@
 body {
     background: radial-gradient( 900px at 50% 50%, rgb(186, 234, 248) 25%, rgb(119, 172, 241) 40%, rgb(52, 191, 247) 50%, rgb(31, 144, 250) 60%);
+    height: 550px;
 }
 
 h1 {
@@ -14,4 +15,13 @@ a {
     color: white;
     background-color: #f1641e;
     border: #f1641e;
+}
+
+
+/* Set the size of the div element that contains the map */
+
+#map {
+    margin: 0 auto;
+    width: 300px;
+    /* The width is the width of the web page */
 }
