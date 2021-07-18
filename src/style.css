@@ -10,11 +10,3 @@ h1 {
 div a:hover {
     text-decoration: underline;
 }
-
-#map {
-    margin: 0 auto;
-    height: 200px;
-    width: 300px;
-    border: 1px solid green;
-    border-radius: 5px;
-}
