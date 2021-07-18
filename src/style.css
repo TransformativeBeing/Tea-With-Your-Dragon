@@ -3,6 +3,12 @@ body {
     height: 550px;
 }
 
+@media (max-width: 375px) {
+    h1 {
+        font-size: 35px;
+    }
+}
+
 h1 {
     font-family: fantasy;
 }
