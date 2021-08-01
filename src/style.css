@@ -3,6 +3,49 @@ body {
     height: 550px;
 }
 
+.navbar-color {
+    background-color: #e3f2fd3b;
+}
+
+h1 {
+    font-family: cursive;
+}
+
 div a:hover {
     text-decoration: underline;
+}
+
+.container-links {
+    max-width: 450px;
+}
+
+.facebook-link {
+    color: white !important;
+    background: #0c92f3 !important;
+    border-color: #0c92f3 !important;
+}
+
+.instagram-link {
+    color: white !important;
+    background: radial-gradient( 230px at 6% 99%, rgb(251, 250, 45) 0.5%, rgb(214, 4, 4) 29.8%, rgb(241, 57, 221) 59.9%, rgb(95, 11, 228) 84.2%);
+    border-color: none;
+}
+
+.etsy-link {
+    color: white !important;
+    background-color: #f1641e !important;
+    border-color: #f1641e !important;
+}
+
+.info-link {
+    color: white !important;
+}
+
+.map {
+    margin: auto;
+}
+
+.built-by {
+    font-size: 12px;
+    font-family: monospace;
 }
