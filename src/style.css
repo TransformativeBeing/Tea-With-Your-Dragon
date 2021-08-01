@@ -8,7 +8,7 @@ body {
 }
 
 h1 {
-    font-family: cursive;
+    font-family: fantasy;
 }
 
 div a:hover {
@@ -16,7 +16,7 @@ div a:hover {
 }
 
 .container-links {
-    max-width: 450px;
+    max-width: 450px !important;
 }
 
 .facebook-link {
